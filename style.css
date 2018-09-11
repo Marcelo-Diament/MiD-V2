@@ -1,0 +1,344 @@
+/* RESET */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	text-rendering: optimizeLegibility;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+a:hover{
+	text-decoration: none;
+	color: #d20066;
+}
+a.active, .menu-principal a.active{
+	color: #d20066;
+}
+a.active:hover, .menu-principal a.active:hover{
+	color: #d2d2d2;
+}
+::selection {
+  background-color: #d20066;
+  color: #000;
+}
+::-webkit-scrollbar {
+	width: 3px !important;
+	background-color: rgba(0,0,0,0.1);
+}
+ 
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 1px rgba(255,255,255,0.8); 
+	box-shadow: inset 0 0 1px rgba(255,255,255,0.8); 
+	border-radius: 3px;
+	background-color: rgba(158,158,158,0.5);
+}
+ 
+::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+	background-color: #d20066;
+	-webkit-box-shadow: inset 0 0 3px rgba(255,255,255,0.8); 
+	box-shadow: inset 0 0 3px rgba(255,255,255,0.8); 
+}
+::-webkit-scrollbar-thumb:hover {
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.8); 
+	box-shadow: inset 1px 1px 4px rgba(0,0,0,0.8); 
+}
+img{
+	vertical-align: middle;
+}
+/*.clearfix{
+	content: '';
+	display: table;
+	position: absolute;
+}*/
+/* NAV */
+nav.container-fluid{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+/* MENU SUPERIOR */
+.menu-superior{
+	display: none;
+}
+@media only screen and (min-width: 1020px){
+	.menu-superior{
+		display: inline-block;
+	}
+	.menu-superior{
+		background-color: rgba(0,0,0,0.8);
+		padding: 5px;
+		max-height: 32px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.menu-superior h2 strong, .menu-superior a, .menu-superior a b{
+		font-family: 'Raleway', sans-serif;
+		font-size: 14px;
+		line-height: 24px;
+		vertical-align: middle;
+		font-weight: 500;
+		color: #fff;
+	}
+	.menu-superior a:hover{
+		text-decoration: none;
+		color: #d20066;
+	}
+	.menu-superior a b:hover{
+		color: inherit;
+		text-decoration: none;
+	}
+	.menu-superior .contato-topo, .contato-topo a{
+		text-align: center;
+		font-size: 16px;
+	}
+	.menu-superior .login-register{
+		text-align: right;
+	}
+	.menu-superior a i{
+		font-size: 22px;
+		margin: auto 10px;
+	}
+	.menu-superior a i.fas.fa-paint-brush{
+		color: #d20066;
+	}
+}
+/* MENU PRINCIPAL */
+.menu-principal{
+	display: block;
+	padding: 5px;
+	background-color: rgba(255,255,255,0.9);
+	max-height: 80px;
+}
+.menu-principal article{
+	display: inline-block;
+	margin: 0 -2px;
+}
+.menu-principal ul{
+	list-style: none;
+	display: flex;
+	margin: 10px 0;
+}
+.menu-principal ul li{
+	margin: auto;
+	line-height: 30px;
+}
+.menu-principal ul li:last-child:before{
+	content: ' | ';
+	display: inline-block;
+	margin: auto 28px auto -28px;
+}
+.menu-principal ul li a{
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: lowercase;
+	color: #000;
+}
+.menu-principal ul li a:hover{
+	color: #d20066;
+}
+.kids{
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+}
+.menu-principal a i{
+	color: #d20066;
+	font-size: 24px;
+	margin: auto 12px;
+	float: right;
+}
+.menu-principal .contatos{
+	float: right;
+	margin-top: 10px;
+}
+/* BANNER DETALH DE PRODUTO */
+.banner-pdt-detalhe{
+	background-image: url('img/sample/poltrona-tripolina-s-lona-por-estudio-futon-company.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 66vh;
+	text-align: left;
+	padding: 15px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+.banner-pdt-detalhe div{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+.banner-pdt-detalhe h1{
+	font-size: 56px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.banner-pdt-detalhe span.prefix, .banner-pdt-detalhe span.sufix{
+	font-size: 32px;
+	font-weight: 200;
+	display: block;
+}
+.banner-pdt-detalhe h2{
+	font-size: 24px;
+	line-height: 20px;
+	text-transform: lowercase;
+	margin-bottom: 2px;
+}
+@media only screen and (min-width: 480px){
+	.banner-pdt-detalhe span.prefix, .banner-pdt-detalhe span.sufix{
+		display: inline-block;
+	}
+}
+/* BREADCRUBM */
+.breadcrumbList{
+	display: none;
+}
+@media only screen and (min-width: 1080px){
+	.breadcrumbList{
+		display: inline-block;
+	}
+	.breadcrumbList ol{
+		list-style: none;
+		display: inline-flex;
+		float: left;
+		margin: 5px 0 5px 15px;
+	}
+	.breadcrumbList ol li{
+		margin-right: 5px;
+	}
+	.breadcrumbList ol li:first-child:before{
+		content: '';
+	}
+	.breadcrumbList ol li:before{
+		content: ' > ';
+			left: 5px;
+	}
+	.breadcrumbList ol li a{
+		color: #000;
+	}
+	.breadcrumbList ol li a:hover, .breadcrumbList ol li a.active{
+		color: #d20066;
+	}
+	.breadcrumbList ol li a.active:hover{
+		color: #d2d2d2;
+	}
+}
+/* SIDEBAR PRODUTOS */
+aside{
+	margin: 30px auto;
+	text-transform: lowercase;
+}
+aside ul{
+	list-style: none;
+	border: none;
+}
+aside ul.card{
+	border: none;
+}
+aside ul li.card-header{
+	background-color: transparent;
+}
+aside ul li a{
+	text-decoration: none;
+	color: #000;
+}
+aside ul li i.fas.fa-sort-down{
+	color: inherit;
+	font-size: 16px;
+	margin-left: 5px;
+}
+aside ul li ul{
+	/*background-color: #f9f9f9;*/
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.card-header{
+	border: none;
+}
+/* IMAGENS DO PRODUTO */
+.produto-imagens{
+	margin: 30px auto;
+}
+.produto-imagens a i{
+	position: absolute;
+		top: 15px;
+		right: 30px;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 50%;
+	color: #d20066;
+	font-weight: 500;
+	padding: 5px;
+	text-decoration: none;
+}
+.produtos-thumbs{
+	display: inline-flex;
+	list-style: none;
+	cursor: pointer;
+	margin: 5px;
+	overflow-x: auto;
+}
+/* DESCRIÇÃO PRINCIPAL PRODUTO */
+.produto-descricao{
+	padding-right: 30px;
+}
+.produto-descricao h3{
+	font-weight: 200;
+	margin: 30px auto;
+}
+.produto-descricao h3 strong{
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.produto-descricao span.prefix{
+	font-size: 30px;
+	font-weight: 200;
+/*	padding-right: 5px;*/
+}
+.produto-descricao span.sufix{
+	font-size: 30px;
+/*	padding-left: 5px;*/
+	font-weight: 200;
+}
+.texto-descritivo{
+	max-height: 33vh;
+	overflow-y: scroll;
+	padding-right: 10px;
+}
+.produto-descricao p{
+	font-size: 18px;
+	line-height: 24px;
+	text-align: justify;
+}
+.medidas h4{
+	font-size: 30px;
+	font-weight: 200;
+	display: block;
+	margin: 15px auto 24px auto;
+}
+.medidas img{
+	margin: auto;
+	display: -webkit-box;
+}
+.medidas p{
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+}
+.medidas p span{
+	font-weight: 700;
+}
