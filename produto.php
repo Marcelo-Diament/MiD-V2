@@ -147,6 +147,34 @@
 						<p>A capa de lonita pode ser adquirida avulsa.</p>
 					</div>
 				</div>
+				<div class="cores row">
+					<h4 class="col-12">cores da poltrona</h4>
+					<ul class="cores-thumbs col-12">
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Antracite-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Antracite Full" alt="Tecido Sarja Peletizada Antracite Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Areia-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Areia Full" alt="Tecido Sarja Peletizada Areia Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Azul-Delave-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Azul-Delave Full" alt="Tecido Sarja Peletizada Azul-Delave Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Azul-Marinho-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Azul-Marinho Full" alt="Tecido Sarja Peletizada Azul-Marinho Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Azul-Tiffany-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Azul-Tiffany Full" alt="Tecido Sarja Peletizada Azul-Tiffany Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Cactus-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Cactus Full" alt="Tecido Sarja Peletizada Cactus Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Ciclamen-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Ciclamen Full" alt="Tecido Sarja Peletizada Ciclamen Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Cinza-City-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Cinza-City Full" alt="Tecido Sarja Peletizada Cinza-City Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Coral-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Coral Full" alt="Tecido Sarja Peletizada Coral Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Cru-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Cru Full" alt="Tecido Sarja Peletizada Cru Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Damasco-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Damasco Full" alt="Tecido Sarja Peletizada Damasco Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Floresta-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Floresta Full" alt="Tecido Sarja Peletizada Floresta Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Horizonte-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Horizonte Full" alt="Tecido Sarja Peletizada Horizonte Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Kaki-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Kaki Full" alt="Tecido Sarja Peletizada Kaki Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Mimosa-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Mimosa Full" alt="Tecido Sarja Peletizada Mimosa Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Plum-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Plum Full" alt="Tecido Sarja Peletizada Plum Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Preto-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Preto Full" alt="Tecido Sarja Peletizada Preto Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Rosa-Cha-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Rosa-Cha Full" alt="Tecido Sarja Peletizada Rosa-Cha Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Safari-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Safari Full" alt="Tecido Sarja Peletizada Safari Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Samambaia-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Samambaia Full" alt="Tecido Sarja Peletizada Samambaia Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Verde-Lagoa-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Verde-Lagoa Full" alt="Tecido Sarja Peletizada Verde-Lagoa Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Vermelho-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Vermelho Full" alt="Tecido Sarja Peletizada Vermelho Full" width="50px" height="auto"></li>
+						<li><img src="img/sample/Tecido-Sarja-Peletizada-Vermilion-Full-862x862-100x100.jpg" title="Tecido Sarja Peletizada Vermilion Full" alt="Tecido Sarja Peletizada Vermilion Full" width="50px" height="auto"></li>
+					</ul>
+				</div>
 				<div class="medidas row">
 					<h4 class="col-12">medidas da poltrona</h4>
 					<div class="col-3 altura">

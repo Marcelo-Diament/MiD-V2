@@ -271,7 +271,7 @@ aside ul li ul{
 }
 /* IMAGENS DO PRODUTO */
 .produto-imagens{
-	margin: 30px auto;
+	margin: 45px auto;
 }
 .produto-imagens a i{
 	position: absolute;
@@ -324,21 +324,27 @@ aside ul li ul{
 	line-height: 24px;
 	text-align: justify;
 }
-.medidas h4{
+.cores-thumbs{
+	display: contents;
+	list-style: none;
+	cursor: pointer;
+	margin: 1px;
+}
+.medidas h4,.cores h4{
 	font-size: 30px;
 	font-weight: 200;
 	display: block;
 	margin: 15px auto 24px auto;
 }
-.medidas img{
+.medidas img,.cores img{
 	margin: auto;
 	display: -webkit-box;
 }
-.medidas p{
+.medidas p,.cores p{
 	text-align: center;
 	font-size: 12px;
 	line-height: 16px;
 }
-.medidas p span{
+.medidas p span,.cores p span{
 	font-weight: 700;
 }
