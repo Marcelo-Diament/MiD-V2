@@ -9,18 +9,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
         <!-- META CACHE -->
         <meta http-equiv="Cache-control" content="public">
-        <meta http-equiv="cache-control" content="max-age=0">
-        <meta name="revisit-after" content="7 days">
-        <meta http-equiv="expires" content="0">
+        <meta http-equiv="cache-control" content="max-age=172800">
+        <meta name="revisit-after" content="2 days">
         <!-- MANIFESTO -->
-        <link rel="manifest" href="manifest.json">
+        <link rel="manifest" href="https://deezign.com.br/homologacao/homologacao-v2/manifest.json">
         <!-- SCHEMA.ORG -->
         <script type="application/ld+json">
             {
                 "@context": "http://schema.org",
                 "@type": "Organization",
                 "url": "https://deezign.com.br",
-                "logo": "/favicons/favicon-512x512.png",
+                "logo": "https://deezign.com.br/homologacao/homologacao-v2/favicons/favicon-512x512.png",
                 "description": "Móveis e Design Autoral",
                 "additionalType": "http://www.productontology.org/doc/Product_design",
                 "telephone" : "+55-11-3083-6212",
@@ -52,8 +51,8 @@
         <!-- ESTILO -->
         <link async defer href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link async defer rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">
-        <link async defer href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway|Quicksand|Nunito" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="style.css">
+        <link async defer href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway|Quicksand|Nunito|Lato" rel="stylesheet">
+        <link async defer type="text/css" rel="stylesheet" href="style.css">
         <!-- META DATA -->
         <meta name="identifier-URL" content="https://www.deezign.com.br">
         <meta name="url" content="https://www.deezign.com.br">
@@ -93,7 +92,7 @@
         <meta name="theme-color" content="#FFFFFF">
         <!-- FAVICONS -->
         <!--[if IE]><link rel="shortcut icon" href="favicons/favicon.ico"><![endif]-->
-        <meta name="msapplication-TileImage" content="favicons/tile.png">
+        <!-- <meta name="msapplication-TileImage" content="favicons/tile.png">
         <link rel="icon" type="image/png" sizes="512x512" href="favicons/favicon-512x512.png">
         <link rel="icon" type="image/png" sizes="228x228" href="favicons/favicon-228x228.png">
         <link rel="shortcut icon" sizes="196x196" href="favicons/favicon-196.png">
@@ -112,4 +111,170 @@
         <link rel="icon" type="image/png" sizes="48x48" href="favicons/android-icon-48x48.png">
         <link rel="icon" type="image/png" sizes="36x36" href="favicons/android-icon-36x36.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png"> -->
+        <link rel="icon" type="image/png" sizes="512x512" href="favicons/icon-512x512.png">
+        <style>
+        /* ATF - Acima da primeira dobra */
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                scroll-behavior: smooth;
+                text-rendering: optimizeLegibility;
+                -webkit-transition: all 0.3s ease-in-out;
+                -o-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+            }
+            html, body{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                max-width: 100vw;
+                overflow-x: hidden;
+            }
+            img{
+                vertical-align: middle;
+            }
+            /* NAV */
+            nav.container-fluid{
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 999;
+            }
+            /* MENU SUPERIOR */
+            .menu-superior{
+                display: none;
+            }
+            /* MENU PRINCIPAL */
+            div#navbarNavDropdown.collpase.navbar-collapse{
+                justify-content: space-around !important;
+            }
+            .menu-principal{
+                display: block;
+                background-color: rgba(255,255,255,1);
+                max-height: 80px;
+            }
+            .menu-principal .bg-light{
+                background-color: rgba(255,255,255,1) !important;
+            }
+            .menu-principal article{
+                display: inline-block;
+                margin: 0 -2px;
+            }
+            .menu-principal ul{
+                list-style: none;
+                display: flex;
+                margin: 10px 0;
+            }
+            ul.navbar-bar{
+                margin: auto 35px;
+            }
+            .menu-principal ul li{
+                margin: auto;
+                line-height: 30px;
+            }
+            /*.menu-principal ul li:last-child:before{
+                content: ' | ';
+                display: inline-block;
+                margin: auto 28px auto -28px;
+            }*/
+            .menu-principal ul li a{
+                font-size: 18px;
+                font-weight: 700;
+                text-transform: lowercase;
+                color: #000 !important;
+            }
+            .menu-principal ul li a:hover{
+                color: #d20066 !important;
+            }
+            .kids{
+                font-family: 'Nunito', sans-serif;
+                font-weight: lighter;
+            }
+            .menu-principal a i{
+                color: #d20066;
+                font-size: 24px;
+                margin: auto 12px;
+                float: right;
+            }
+            .menu-principal .contatos{
+                float: right;
+                margin-top: 10px;
+            }
+            main{
+                margin-top: 65px;
+            }
+            /* BREADCRUMB */
+            .breadcrumbList{
+                display: none;
+            }
+            /* MEDIA QUERY - > 1020px */
+            @media only screen and (min-width: 1020px){
+                .menu-superior{
+                    background-color: rgba(0,0,0,0.8);
+                    padding: 5px;
+                    max-height: 32px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .menu-superior span strong, .menu-superior a, .menu-superior a b{
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 14px;
+                    line-height: 24px;
+                    vertical-align: middle;
+                    font-weight: 500;
+                    color: #fff;
+                }
+                .menu-superior a:hover{
+                    text-decoration: none;
+                    color: #d20066;
+                }
+                .menu-superior a b:hover{
+                    color: inherit;
+                    text-decoration: none;
+                }
+                .menu-superior .contato-topo, .contato-topo a{
+                    text-align: center;
+                    font-size: 16px;
+                }
+                .menu-superior .login-register{
+                    text-align: right;
+                }
+                .menu-superior a i{
+                    font-size: 22px;
+                    margin: auto 10px;
+                }
+                .menu-superior a i.fas.fa-paint-brush{
+                    color: #d20066;
+                }
+                .breadcrumbList{
+                    display: inline-block;
+                }
+                .breadcrumbList ol{
+                    list-style: none;
+                    display: inline-flex;
+                    float: left;
+                    margin: 5px 0 5px 15px;
+                }
+                .breadcrumbList ol li{
+                    margin-right: 5px;
+                }
+                .breadcrumbList ol li:first-child:before{
+                    content: '';
+                }
+                .breadcrumbList ol li:before{
+                    content: ' > ';
+                        left: 5px;
+                }
+                .breadcrumbList ol li a{
+                    color: #000;
+                }
+                .breadcrumbList ol li a:hover, .breadcrumbList ol li a.active{
+                    color: #d20066;
+                }
+                .breadcrumbList ol li a.active:hover{
+                    color: #d2d2d2;
+                }
+            }
+            </style>
