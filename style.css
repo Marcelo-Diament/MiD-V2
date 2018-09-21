@@ -1,5 +1,15 @@
 /* RESET */
 
+*{
+	text-rendering: geometricPrecision;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 	/* APENAS NO DESKTOP */
 	.desktopOnly{
 		display: none;
@@ -64,5 +74,146 @@ h2.apresentacao{
 	padding: 10px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 200;
+	color: #383838;
 	text-align: justify;
+}
+
+ul li.highlight{
+	font-size: 14pt;
+	font-weight: bolder;
+	color: #383838;
+}
+
+ul li.highlight::before{
+	content: ':: ';
+	display: inline-block;
+	color: #bb0045;
+	font-weight: bolder;
+	margin-right: 5px;
+	margin-left: 25px;
+}
+
+/* ATRIBUTOS DO PRODUTO */
+h4{
+	padding-left: initial !important;
+	font-size: 12pt;
+	font-family: 'Lato', sans-serif;
+	color: #737373;
+	display: inline-block;
+}
+.atributo{
+	padding: 15px;
+}
+.cores ul{
+	list-style: none;
+	display: contents;
+}
+.cores ul li{
+	margin: 2px;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 50%;
+}
+.cores ul li.selected{
+	border: 1px solid #bb0045;
+}
+.cores ul li img{
+	border-radius: 50%;
+}
+select#tamanho{
+	width: 100%;
+	margin: 5px auto;
+}
+
+input[type=text]{
+	width: 100%;
+}
+small{
+	color: #383838;
+	font-family: 'Lato', sans-serif;
+	font-size: 75%;
+	display: block;
+}
+/*input#arquivoImagem{
+	color: #737373;
+	width: 100%;
+	border: 1px solid #a9a9a9;
+}*/
+
+.js .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #383838;
+    background-color: #a9a9a9;
+    color: #383838;
+    display: inline-block;
+}
+/*.inputfile:focus + label,*/
+.inputfile + label:hover {
+    background-color: #737373;
+    color: #000;
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.inputfile + label * {
+	pointer-events: none;
+}
+/*.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}*/
+label{
+	margin: initial;
+	width: 100%;
+}
+span.uploadSpan{
+	background-color: #fff;
+	color: #737373;
+	min-width: 100%;
+}
+strong.uploadButton{
+	/*background-color: #737373;
+	color: #383838;*/
+	width: 10vw;
+}
+h5{
+	font-size: 11pt;
+    color: #383838;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+input#larguraTapete, input#comprimentoTapete{
+	width: 100%;
+}
+.input50{
+	display: inline-block;
+	width: 49%;
+}
+input[type=checkbox], small input[type=checkbox]{
+	margin: 5px auto 15px auto;
+	font-size: 12pt;
+	color: #737373;
+	font-family: 'Lato', sans-serif;
+}
+span.precoOpcional{
+	display: inline-block;
+	font-size: 12pt;
+	color: #868686;
+	margin-top: -15px;
+	margin-bottom: 5px;
+	padding-left: 15px;
 }

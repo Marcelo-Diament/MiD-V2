@@ -106,12 +106,189 @@
 
 		<!-- Breve texto e bullets de destaques -->
 		<article>
-			<h2 class="apresentacao">Ícone do design moderno, tem sua estrutura dobrável e sua capa removível. Confira as opções de cores da sua poltrona Tripolina S.</h2>	
+			<h2 class="apresentacao">Ícone do design moderno, tem sua estrutura dobrável e sua capa removível. Confira as opções de cores da sua poltrona Tripolina S.</h2>
+			<ul>
+				<li class="highlight">poltrona portátil</li>
+				<li class="highlight">estrutura dobrável</li>
+				<li class="highlight">assento removível e lavável</li>
+			</ul>
 		</article>
+	
+	<!-- FORMULÁRIO DE ATRIBUTOS DO PRODUTO -->
+		<article class="col-12">
 
+			<!-- ATRIBUTO SELECT - CORES -->
+			<div class="atributo cores row">
+				<h4 class="col-12">cores</h4>
+				<ul class="cores-thumbs col-12">
+					<li class="selected"><img src="img/sample/Tecido-Sarja-Peletizada-Cinza-City.jpg" title="Tecido Sarja Peletizada Cinza-City Full" alt="Tecido Sarja Peletizada Cinza-City Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Cru.jpg" title="Tecido Sarja Peletizada Cru Full" alt="Tecido Sarja Peletizada Cru Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Areia.jpg" title="Tecido Sarja Peletizada Areia Full" alt="Tecido Sarja Peletizada Areia Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Coral.jpg" title="Tecido Sarja Peletizada Coral Full" alt="Tecido Sarja Peletizada Coral Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Mimosa.jpg" title="Tecido Sarja Peletizada Mimosa Full" alt="Tecido Sarja Peletizada Mimosa Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Damasco.jpg" title="Tecido Sarja Peletizada Damasco Full" alt="Tecido Sarja Peletizada Damasco Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Safari.jpg" title="Tecido Sarja Peletizada Safari Full" alt="Tecido Sarja Peletizada Safari Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Ciclamen.jpg" title="Tecido Sarja Peletizada Ciclamen Full" alt="Tecido Sarja Peletizada Ciclamen Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Vermilion.jpg" title="Tecido Sarja Peletizada Vermilion Full" alt="Tecido Sarja Peletizada Vermilion Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Vermelho.jpg" title="Tecido Sarja Peletizada Vermelho Full" alt="Tecido Sarja Peletizada Vermelho Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Rosa-Cha.jpg" title="Tecido Sarja Peletizada Rosa-Cha Full" alt="Tecido Sarja Peletizada Rosa-Cha Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Antracite.jpg" title="Tecido Sarja Peletizada Antracite Full" alt="Tecido Sarja Peletizada Antracite Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Azul-Delave.jpg" title="Tecido Sarja Peletizada Azul-Delave Full" alt="Tecido Sarja Peletizada Azul-Delave Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Azul-Marinho.jpg" title="Tecido Sarja Peletizada Azul-Marinho Full" alt="Tecido Sarja Peletizada Azul-Marinho Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Azul-Tiffany.jpg" title="Tecido Sarja Peletizada Azul-Tiffany Full" alt="Tecido Sarja Peletizada Azul-Tiffany Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Horizonte.jpg" title="Tecido Sarja Peletizada Horizonte Full" alt="Tecido Sarja Peletizada Horizonte Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Floresta.jpg" title="Tecido Sarja Peletizada Floresta Full" alt="Tecido Sarja Peletizada Floresta Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Cactus.jpg" title="Tecido Sarja Peletizada Cactus Full" alt="Tecido Sarja Peletizada Cactus Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Kaki.jpg" title="Tecido Sarja Peletizada Kaki Full" alt="Tecido Sarja Peletizada Kaki Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Samambaia.jpg" title="Tecido Sarja Peletizada Samambaia Full" alt="Tecido Sarja Peletizada Samambaia Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Verde-Lagoa.jpg" title="Tecido Sarja Peletizada Verde-Lagoa Full" alt="Tecido Sarja Peletizada Verde-Lagoa Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Plum.jpg" title="Tecido Sarja Peletizada Plum Full" alt="Tecido Sarja Peletizada Plum Full" width="33px" height="auto"></li>
+					<li><img src="img/sample/Tecido-Sarja-Peletizada-Preto.jpg" title="Tecido Sarja Peletizada Preto Full" alt="Tecido Sarja Peletizada Preto Full" width="33px" height="auto"></li>
+				</ul>
+			</div>
+
+			<!-- ATRIBUTO SELECT - TAMANHO -->
+			<div class="atributo inputSelect row">
+				<label for="tamanho"><h4>tamanho</h4>
+					<select name="tamanho" id="tamanho" required>
+						<option value="" disabled selected>Selecione um tamanho</option>
+						<option value="pequeno">Pequeno</option>
+						<option value="medio">Médio</option>
+						<option value="grande">Grande</option>
+					</select>
+				</label>
+			</div>
+
+			<!-- ATRIBUTO TEXT - NOME -->
+			<div class="atributo inputText row">
+				<label for="nomeInput"><h4>nome</h4>
+					<input type="text" placeholder=" Insira seu nome" name="nomeInput" id="nomeInput" required>
+					<small>pode haver variações na largura de acordo com cada letra</small>
+				</label>
+			</div>
+
+			<!-- ATRIBUTO UPLOAD - IMAGEM -->
+			<div class="atributo row">
+				<h4 class="col-12">upload de imagem</h4>
+				<input type="file" name="file" id="file" class="inputfile" data-multiple-caption="{count} arquivos" multiple accept="image/*, .png, .jpg, .gif, .dwg, .pdf"/>
+				<label for="file" class="row">
+					<span class="col-8 uploadSpan">escolha seu arquivo</span>
+					<strong class="col-4 uploadButton">anexar</strong>
+				</label>
+			</div>
+
+			<!-- ATRIBUTO NUMBER - TAPETE SOB MEDIDA -->
+			<div class="atributo inputNumber row">
+				<label for="nomeInput"><h4>medidas do tapete</h4>
+					<small>mín: 100 cm e máx: 1500 cm, de 100 em 100 cm</small>
+					<div class="input50">
+						<h5>Largura (cm)</h5>
+						<input type="number" step="100" min="100" max="1500" maxlength="4" placeholder=" Largura (cm)" name="larguraTapete" id="larguraTapete" required onkeydown="definirLargura()">
+					</div>
+					<div class="input50">
+						<h5>Comprimento (cm)</h5>
+						<input type="number" step="100" min="100" max="1500" maxlength="4" placeholder=" Comprimento (cm)" name="comprimentoTapete" id="comprimentoTapete" required onchange="definirComprimento()">
+					</div>
+					<h5>área total: <span id="areaTapete"></span> m²</h5>
+				</label>
+			</div>
+
+			<!-- ATRIBUTO CHECKBOX - OPCIONAIS -->
+			<div class="atributo inputCheckbox row">
+				<h4 class="col-12">opcionais</h4>
+				<label class="col-6" for="opcional1">
+					<img src="img/sample/poltrona-tripolina-s-lona-por-estudio-futon-company-thumb-07.jpg" title="Tecido Sarja Peletizada Samambaia Full" alt="Tecido Sarja Peletizada Samambaia Full" width="100%" height="auto">
+					<small><input type="checkbox" name="opcional1" id="opcional1" value="opcional1">
+					acabamento fosco<span class="precoOpcional">+ R$ 550,00</span></small>
+				</label>
+				<label class="col-6" for="opcional2">
+					<img src="img/sample/poltrona-tripolina-s-lona-por-estudio-futon-company-thumb-03.jpg" title="Tecido Sarja Peletizada Plum Full" alt="Tecido Sarja Peletizada Plum Full" width="100%" height="auto">
+					<small><input type="checkbox" name="opcional1" id="opcional1" value="opcional1">
+					acabamento fosco<span class="precoOpcional">+ R$ 550,00</span></small>
+				</label>
+				<label  class="col-6" for="opcional3">
+					<small><input type="checkbox" name="opcional3" id="opcional3" value="opcional3">
+					acabamento fosco<span class="precoOpcional">+ R$ 550,00</span></small>
+				</label>
+				<label  class="col-6" for="opcional4">
+					<small><input type="checkbox" name="opcional4" id="opcional4" value="opcional4">
+					tratamento fungicida<span class="precoOpcional">+ R$ 550,00</span></small>
+				</label>
+			</div>
+
+		</article>
 	</section>
 
 </main>
 
+<script>
+	/* BOTÃO DE UPLOAD DE ARQUIVO - PRODUTO > DETALHES > ATRIBUTOS > UPLOAD DE ARQUIVO */
+	var inputs = document.querySelectorAll( '.inputfile' );
+	Array.prototype.forEach.call( inputs, function( input )
+		{
+			var label	 = input.nextElementSibling,
+			labelVal = label.innerHTML;
+			input.addEventListener( 'change', function( e )
+				{
+					var fileName = '';
+					if( this.files && this.files.length > 1 )
+						fileName = ( this.getAttribute( 'data-multiple-caption' ) || '' ).replace( '{count}', this.files.length );
+					else
+						fileName = e.target.value.split( '\\' ).pop();
+					if( fileName )
+						label.querySelector( 'span' ).innerHTML = fileName;
+					else
+						label.innerHTML = labelVal;
+					});
+				});
+
+	/* CÁLCULO DE METRAGEM TAPETE */
+	/* Cálculo da Área */
+	var areaTapete = larguraTapete.value * comprimentoTapete.value/10000;
+	document.querySelector('#areaTapete').innerHTML = parseInt(areaTapete);
+	/* Atualização do cálculo conforme inserção no campo de largura */
+	function definirLargura(){
+		if (larguraTapete.value % 100 != 0){
+			larguraTapete.value = Math.ceil(larguraTapete.value/100)*100;
+			console.log(larguraTapete.value);
+		}
+		if (larguraTapete.value > 1500 || larguraTapete.value < 100) {
+			larguraTapete.style = 'background-color: #ffc181;';
+		} else {
+			larguraTapete.style = 'background-color: #fff;';
+		}
+		var areaTapete = larguraTapete.value * comprimentoTapete.value/10000;
+		document.querySelector('#areaTapete').innerHTML = parseInt(areaTapete);
+	}
+	/* Atualização do cálculo conforme inserção no campo de comprimento */
+	function definirComprimento(){
+		if (comprimentoTapete.value % 100 != 0){
+			comprimentoTapete.value = Math.ceil(comprimentoTapete.value/100)*100;
+			console.log(comprimentoTapete.value);
+		}
+		if (comprimentoTapete.value > 1500 || comprimentoTapete.value < 100) {
+			comprimentoTapete.style = 'background-color: #ffc181;';
+		} else {
+			comprimentoTapete.style = 'background-color: #fff;';
+		}
+		var areaTapete = larguraTapete.value * comprimentoTapete.value/10000;
+		document.querySelector('#areaTapete').innerHTML = parseInt(areaTapete);
+	}
+
+	/* Limite de 4 caracteres ao campo de largura via JS (no HTML também já limita) */
+	larguraTapete.oninput = function () {
+	    if (this.value.length > 4) {
+	        this.value = this.value.slice(0,4); 
+	    }
+	}
+
+	/* Limite de 4 caracteres ao campo de comprimento via JS (no HTML também já limita) */
+	comprimentoTapete.oninput = function () {
+	    if (this.value.length > 4) {
+	        this.value = this.value.slice(0,4); 
+	    }
+	}
+	
+</script>
 <!-- FOOTER -->
 <?php include_once('footer.php'); ?>

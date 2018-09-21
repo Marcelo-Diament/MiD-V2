@@ -1,5 +1,5 @@
 <!DOCTYPE html prefix="og: http://ogp.me/ns#">
-<html lang="pt">
+<html lang="pt" class="no-js">
     <head>
         <!-- RESETS -->
         <meta charset="UTF-8">
@@ -7,6 +7,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+        <!-- SE O BROWSER ACEITA OU NÃO JS -->
+        <script>(function(e,t,n){var r=e.querySelectorAll("html")[0];r.className=r.className.replace(/(^|\s)no-js(\s|$)/,"$1js$2")})(document,window,0);</script>
         <!-- META CACHE -->
         <meta http-equiv="Cache-control" content="public">
         <meta http-equiv="cache-control" content="max-age=172800">
@@ -92,7 +94,7 @@
         <meta name="theme-color" content="#FFFFFF">
         <!-- FAVICONS -->
         <!--[if IE]><link rel="shortcut icon" href="favicons/favicon.ico"><![endif]-->
-        <!-- <meta name="msapplication-TileImage" content="favicons/tile.png">
+        <meta name="msapplication-TileImage" content="favicons/tile.png">
         <link rel="icon" type="image/png" sizes="512x512" href="favicons/favicon-512x512.png">
         <link rel="icon" type="image/png" sizes="228x228" href="favicons/favicon-228x228.png">
         <link rel="shortcut icon" sizes="196x196" href="favicons/favicon-196.png">
@@ -111,7 +113,7 @@
         <link rel="icon" type="image/png" sizes="48x48" href="favicons/android-icon-48x48.png">
         <link rel="icon" type="image/png" sizes="36x36" href="favicons/android-icon-36x36.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png"> -->
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
         <link rel="icon" type="image/png" sizes="512x512" href="favicons/icon-512x512.png">
         <style>
         /* ATF - Acima da primeira dobra */
@@ -152,11 +154,11 @@
             }
             .menu-principal{
                 display: block;
-                background-color: rgba(255,255,255,1);
+                background-color: rgba(255,255,255,0.7);
                 max-height: 80px;
             }
             .menu-principal .bg-light{
-                background-color: rgba(255,255,255,1) !important;
+                background-color: rgba(255,255,255,0.7) !important;
             }
             .menu-principal article{
                 display: inline-block;
