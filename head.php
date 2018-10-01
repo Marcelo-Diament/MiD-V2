@@ -1,5 +1,5 @@
-<!DOCTYPE html prefix="og: http://ogp.me/ns#">
-<html lang="pt" class="no-js">
+<!DOCTYPE html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" version="XHTML+RDFa 1.0" xml:lang="en">
+<html lang="pt" class="no-js" version="HTML+RDFa 1.1">
     <head>
         <!-- RESETS -->
         <meta charset="UTF-8">
@@ -51,9 +51,9 @@
             }
         </script>
         <!-- ESTILO -->
-        <link async defer href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link async defer rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">
-        <link async defer href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway|Quicksand|Nunito|Lato" rel="stylesheet">
+        <link async="async" defer="defer" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link async="async" defer="defer" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">
+        <link async="async" defer="defer" href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway|Quicksand|Nunito|Lato" rel="stylesheet">
         <link async defer type="text/css" rel="stylesheet" href="style.css">
         <!-- META DATA -->
         <meta name="identifier-URL" content="https://www.deezign.com.br">
@@ -131,11 +131,14 @@
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
-                max-width: 100vw;
-                overflow-x: hidden;
+                max-width: 99.5%;
+                /*overflow-x: hidden;*/
             }
             img{
                 vertical-align: middle;
+            }
+            .container-fluid{
+                width: 100%;
             }
             /* NAV */
             nav.container-fluid{
@@ -154,11 +157,11 @@
             }
             .menu-principal{
                 display: block;
-                background-color: rgba(255,255,255,0.7);
+                /*background-color: rgba(255,255,255,0.9);*/
                 max-height: 80px;
             }
             .menu-principal .bg-light{
-                background-color: rgba(255,255,255,0.7) !important;
+                background-color: rgba(255,255,255,0.9) !important;
             }
             .menu-principal article{
                 display: inline-block;
@@ -210,6 +213,9 @@
             /* BREADCRUMB */
             .breadcrumbList{
                 display: none;
+            }
+            .atf{
+                display: block !important;
             }
             /* MEDIA QUERY - > 1020px */
             @media only screen and (min-width: 1020px){
