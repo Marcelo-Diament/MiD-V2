@@ -129,7 +129,10 @@ img.d-block{
   top: 0;
   left: 0;
   z-index: 999999;
-  /*overflow: scroll;*/
+  overflow: scroll;
+}
+#lightboxImagemZoom i.far.fa-times{
+  position: fixed !important;
 }
 #lightboxImagemZoom img{
   margin: auto;
@@ -144,7 +147,7 @@ img.d-block{
   .carrosselDeImagens{
     position: sticky;
     position: -webkit-sticky;
-    top: 115px;
+    top: 197px;
   }
 }
 .fa-heart:hover, .fa-search:hover, .fa-shopping-bag:hover{
@@ -224,7 +227,7 @@ ul li.highlight::before{
 }
 @media only screen and (min-width: 1020px){
   .container-atributos{
-  margin-top: -650px;
+  margin-top: -610px;
   margin-left: 60%;
   }
 }
@@ -668,7 +671,7 @@ div.redes-icons i:hover{
   position: absolute;
   top: 0;
   left: 15px;
-  width: 27%;
+  /*width: 27%;*/
 }
 .crossSellTitle:after, .maisDetalhesProduto:after, .maisProdutosDaCategoria:after, .maisCategorias:after{
   content: '';
@@ -677,7 +680,7 @@ div.redes-icons i:hover{
   position: absolute;
   top: 0;
   right: 15px;
-  width: 27%; 
+ /* width: 27%; */
 }
 .maisDetalhesProduto:before, .maisDetalhesProduto:after{
   width: 20%;
@@ -687,6 +690,20 @@ div.redes-icons i:hover{
 }
 .maisCategorias:before, .maisCategorias:after{
   width: 15%;
+}
+@media only screen and (min-width: 1020px){
+  .crossSellTitle:before, .crossSellTitle:after{
+    width: 40%;
+  }
+  .maisDetalhesProduto:before, .maisDetalhesProduto:after{
+    width: 40%;
+  }
+  .maisProdutosDaCategoria:before, .maisProdutosDaCategoria:after{
+    width: 40%;
+  }
+  .maisCategorias:before, .maisCategorias:after{
+    width: 40%;
+  }
 }
 .cardPdt{
   display: inline-block;

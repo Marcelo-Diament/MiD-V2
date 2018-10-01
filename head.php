@@ -150,6 +150,9 @@
             /* MENU SUPERIOR */
             .menu-superior{
                 display: none;
+                -webkit-transition: all 0.3s ease-in-out;
+                -o-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
             }
             /* MENU PRINCIPAL */
             div#navbarNavDropdown.collpase.navbar-collapse{

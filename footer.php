@@ -45,6 +45,18 @@
 			itensCarrinho.style.display = 'block';
 		}
 
+		let menuTopo = document.querySelector('#menu-superior')
+		window.onscroll = function() {menuRolagem()}
+		function menuRolagem() {
+			    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+			        menuTopo.style = 'height: 0px !important;opacity:0;padding:0;';
+			        menuTopo.child.style.height = '0px !important;padding: 5px;';
+
+			    } else {
+			        menuTopo.style = 'height: 32px !important;opacity:1';
+			    }
+			}
+
 		</script>
 
 	</body>

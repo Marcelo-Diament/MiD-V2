@@ -77,7 +77,7 @@
 	<section class="row atf" itemscope itemtype="http://schema.org/Product">
 		
 		<!-- TÍTULO -->
-		<article class="col-12">
+		<article class="col-12 offset-md-6 col-md-6">
 			<h1 class="tituloProduto" itemprop="name">
 				<span class="prefix">poltrona</span>
 				Tripolina S<br/>
@@ -360,7 +360,7 @@
 		<!-- PRODUTOS SUGERIDOS -->
 		<article class="col-12 crossSell">
 			<h4 class="crossSellTitle">para combinar</h4>
-			<div class="cardPdt col-6">
+			<div class="cardPdt col-6 col-md-3">
 				<a href="#" target="_blank" title="Confira os detalhes da almofada Classic" rel="next" itemprop="isConsumableFor">
 					<div class="imgRel"><img async src="img/sample/almofada-classic-geometrica-vermelha.jpg" alt="Confira os detalhes da almofada Classic" title="Confira os detalhes da almofada Classic" width="100%" height="auto"></div>
 					<h2 class="prefixoCross">almofada</h2>
@@ -368,7 +368,23 @@
 					<h2 class="sufixoCross">geométrica vermelha</h2>
 				</a>
 			</div>
-			<div class="cardPdt col-6">
+			<div class="cardPdt col-6 col-md-3">
+				<a href="#" target="_blank" title="Confira os detalhes da almofada Estrela" rel="next" itemprop="isConsumableFor">
+					<div class="imgRel"><img async src="img/sample/almofada-estrela-suede-chamois.jpg" alt="Confira os detalhes da almofada Estrela" title="Confira os detalhes da almofada Estrela" width="100%" height="auto"></div>
+					<h2 class="prefixoCross">almofada</h2>
+					<h2 class="tituloCross">Estrela</h2>
+					<h2 class="sufixoCross">suede chamois</h2>
+				</a>
+			</div>
+			<div class="cardPdt col-6 col-md-3">
+				<a href="#" target="_blank" title="Confira os detalhes da almofada Classic" rel="next" itemprop="isConsumableFor">
+					<div class="imgRel"><img async src="img/sample/almofada-classic-geometrica-vermelha.jpg" alt="Confira os detalhes da almofada Classic" title="Confira os detalhes da almofada Classic" width="100%" height="auto"></div>
+					<h2 class="prefixoCross">almofada</h2>
+					<h2 class="tituloCross">Classic</h2>
+					<h2 class="sufixoCross">geométrica vermelha</h2>
+				</a>
+			</div>
+			<div class="cardPdt col-6 col-md-3">
 				<a href="#" target="_blank" title="Confira os detalhes da almofada Estrela" rel="next" itemprop="isConsumableFor">
 					<div class="imgRel"><img async src="img/sample/almofada-estrela-suede-chamois.jpg" alt="Confira os detalhes da almofada Estrela" title="Confira os detalhes da almofada Estrela" width="100%" height="auto"></div>
 					<h2 class="prefixoCross">almofada</h2>
@@ -470,7 +486,7 @@
 		<!-- PRODUTOS SUGERIDOS -->
 		<article class="col-12 crossSell">
 			<h4 class="maisProdutosDaCategoria">mais cadeiras e poltronas</h4>
-			<div class="cardPdt col-6">
+			<div class="cardPdt col-6 col-md-3">
 				<a href="#" target="_blank" title="Confira os detalhes da poltrona Paulistano aço polido e couro" rel="next" itemprop="isSimilarTo">
 					<div class="imgRel"><img async src="img/sample/poltrona-paulistano-aco-polido-e-couro.jpg" alt="Confira os detalhes da poltrona Paulistano aço polido e couro" title="Confira os detalhes da poltrona Paulistano aço polido e couro" width="100%" height="auto"></div>
 					<h2 class="prefixoCross">poltrona</h2>
@@ -478,7 +494,23 @@
 					<h2 class="sufixoCross">aço polido e couro</h2>
 				</a>
 			</div>
-			<div class="cardPdt col-6">
+			<div class="cardPdt col-6 col-md-3">
+				<a href="#" target="_blank" title="Confira os detalhes da poltrona Tripolina L couro vaqueta" rel="next" itemprop="isSimilarTo">
+					<div class="imgRel"><img async src="img/sample/poltrona-tripolina-l-couro-vaqueta.jpg" alt="Confira os detalhes da poltrona Tripolina L couro vaqueta" title="Confira os detalhes da poltrona Tripolina L couro vaqueta" width="100%" height="auto"></div>
+					<h2 class="prefixoCross">poltrona</h2>
+					<h2 class="tituloCross">Tripolina L</h2>
+					<h2 class="sufixoCross">couro vaqueta</h2>
+				</a>
+			</div>
+			<div class="cardPdt col-6 col-md-3">
+				<a href="#" target="_blank" title="Confira os detalhes da poltrona Paulistano aço polido e couro" rel="next" itemprop="isSimilarTo">
+					<div class="imgRel"><img async src="img/sample/poltrona-paulistano-aco-polido-e-couro.jpg" alt="Confira os detalhes da poltrona Paulistano aço polido e couro" title="Confira os detalhes da poltrona Paulistano aço polido e couro" width="100%" height="auto"></div>
+					<h2 class="prefixoCross">poltrona</h2>
+					<h2 class="tituloCross">Paulistano</h2>
+					<h2 class="sufixoCross">aço polido e couro</h2>
+				</a>
+			</div>
+			<div class="cardPdt col-6 col-md-3">
 				<a href="#" target="_blank" title="Confira os detalhes da poltrona Tripolina L couro vaqueta" rel="next" itemprop="isSimilarTo">
 					<div class="imgRel"><img async src="img/sample/poltrona-tripolina-l-couro-vaqueta.jpg" alt="Confira os detalhes da poltrona Tripolina L couro vaqueta" title="Confira os detalhes da poltrona Tripolina L couro vaqueta" width="100%" height="auto"></div>
 					<h2 class="prefixoCross">poltrona</h2>
@@ -491,18 +523,32 @@
 		<!-- CATEGORIAS SUGERIDAS -->
 		<article class="col-12 crossSell">
 			<h4 class="maisCategorias">para montar seu ambiente</h4>
-			<div class="cardPdt col-6">
-				<a href="#" target="_blank" title="Confira os detalhes da almofada Classic" rel="next" itemprop="isRelatedTo">
-					<div class="imgRel"><img async src="img/sample/categoria-acessorios-almofadas.jpg" alt="Confira os detalhes da almofada Classic" title="Confira os detalhes da almofada Classic" width="100%" height="auto"></div>
+			<div class="cardPdt col-6 col-md-3">
+				<a href="#" target="_blank" title="Confira os maiores destaques em Almofadas" rel="next" itemprop="isRelatedTo">
+					<div class="imgRel"><img async src="img/sample/categoria-acessorios-almofadas.jpg" alt="Confira os maiores destaques em Almofadas" title="Confira os maiores destaques em Almofadas" width="100%" height="auto"></div>
 					<h2 class="prefixoCross">acessórios</h2>
 					<h2 class="tituloCross">Almofadas</h2>
 				</a>
 			</div>
-			<div class="cardPdt col-6">
-				<a href="#" target="_blank" title="Confira os detalhes da almofada Estrela" rel="next" itemprop="isRelatedTo">
-					<div class="imgRel"><img async src="img/sample/categoria-moveis-sofas.jpg" alt="Confira os detalhes da almofada Estrela" title="Confira os detalhes da almofada Estrela" width="100%" height="auto"></div>
+			<div class="cardPdt col-6 col-md-3">
+				<a href="#" target="_blank" title="Confira os maiores destaques em Sofás" rel="next" itemprop="isRelatedTo">
+					<div class="imgRel"><img async src="img/sample/categoria-moveis-sofas.jpg" alt="Confira os maiores destaques em Sofás" title="Confira os maiores destaques em Sofás" width="100%" height="auto"></div>
 					<h2 class="prefixoCross">móveis</h2>
 					<h2 class="tituloCross">Sofás</h2>
+				</a>
+			</div>
+			<div class="cardPdt col-6 col-md-3">
+				<a href="#" target="_blank" title="Confira os maiores destaques em Futons" rel="next" itemprop="isRelatedTo">
+					<div class="imgRel"><img async src="img/sample/categoria-moveis-futons.jpg" alt="Confira os maiores destaques em Futons" title="Confira os maiores destaques em Futons" width="100%" height="auto"></div>
+					<h2 class="prefixoCross">móveis</h2>
+					<h2 class="tituloCross">Futons</h2>
+				</a>
+			</div>
+			<div class="cardPdt col-6 col-md-3">
+				<a href="#" target="_blank" title="Confira os maiores destaques em Pufes" rel="next" itemprop="isRelatedTo">
+					<div class="imgRel"><img async src="img/sample/categoria-moveis-pufes.jpg" alt="Confira os maiores destaques em Pufes" title="Confira os maiores destaques em Pufes" width="100%" height="auto"></div>
+					<h2 class="prefixoCross">móveis</h2>
+					<h2 class="tituloCross">Pufes</h2>
 				</a>
 			</div>
 		</article>
@@ -544,7 +590,7 @@
 	    </div>
 	    <div rel="gr:hasBusinessFunction" resource="http://purl.org/goodrelations/v1#Sell">
 	    </div>
-	    <<!-- div property="gr:hasEAN_UCC-13" content="013803123784" datatype="xsd:string"></div> -->
+	    <!-- div property="gr:hasEAN_UCC-13" content="013803123784" datatype="xsd:string"></div> -->
 	    <div rel="gr:hasPriceSpecification">
 	      <div typeof="gr:UnitPriceSpecification">
 	        <div property="gr:hasCurrency" content="BRL" datatype="xsd:string"></div>

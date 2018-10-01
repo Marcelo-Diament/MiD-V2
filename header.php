@@ -1,13 +1,13 @@
 	<body>
 		<nav class="container-fluid">
-			<section class="row menu-superior">
+			<section class="row menu-superior" id="menu-superior">
 				<article class="col-4">
 					<span><strong>móveis e design autoral para decorar seu ambiente</strong></span>
 				</article>
 				<article class="col-4 contato-topo">
 					<a href="mailto:contato@deezign.com.br?Subject=Deezign - Contato via site" rel="nofollow" title="Enviar email para Deezign">contato@deezign.com.br</a>
 				</article>
-				<article class="col-4 login-register">
+				<article class="col-4 login-register" id="login-register">
 					<a href="#" rel="next" title="Acesse sua conta ou registre-se"><b>acesse ou crie sua conta aqui </b><i class="fas fa-user-circle"></i></a>
 					<a href="#" rel="next" title="Personalize sua navegação, escolha uma das cores disponíveis"><i class="fas fa-paint-brush"></i></a>
 				</article>
